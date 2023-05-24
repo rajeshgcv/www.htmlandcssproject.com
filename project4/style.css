@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.hero_section{
+    background-image: url('images/profile-side-view-portrait-his-nice-attractive-focused-skilled-guy-geek-coding-programming-writing-database-source-modern-200904285.jpg');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.text_container{
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 16px;
+}
+.lg_text{
+    font-size: 72px;
+    font-weight: 400;
+
+}
+.black_box{
+    background-color: #000;
+    padding: 20px;
+
+}
+
+.black_box h2{
+color: white;
+    font-size: 72px;
+    font-weight: 300;
+    text-align: center;
+}
+.black_box h2 span{
+    font-weight: 400;
+    font-size: 96px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
