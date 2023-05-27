@@ -16,7 +16,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    /* padding: 10px; */
 }
 .center_nav{
     display: flex;
@@ -72,15 +72,77 @@ margin-right: 30px;
     background-color: rgb(238,238,238);
     color: rgb(67, 67,67);
 }
+.container{
+    display: flex;
+}
 
+aside{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px ;
+}
+.side_icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.side_icons img{
+    width: 30px;
+}
+.side_icons p{
+    font-size: 10px;
+    margin-top: -5px  ;
+}
+.bars{
+    margin-top: 20px;
+}
+.main_container{
+    width: 100%;
+}
+/* header{
+    width: 100%;
+} */
+main{
+    min-height: 100vh;
+    background-color: rgb(240, 238, 238);
+}
+.avatarimg{
+    max-width:430px;
+    max-height: 230px;
+}  
+.card_container{
+    display: grid;
+    grid-template-columns:repeat( auto-fit,minmax(320px,1fr));
+}
+.card{
+    padding: 10px;
+    max-width:430px;
+    display: flex;
+    flex-direction: column;
+}
+.card h3{
+    font-size: 20px;
+}
+.avatar_content{
+    padding-top:3px;
+    display: flex;
+    gap: 5px;
+} 
+.content{
+     display: flex;
+     flex-direction: column;
+     gap: 5px;
+}
+.channel_name{
+    font-size: 16px;
+    font-weight: bold;
+}
 
-
-
-
-
-
-
-
-
-
-
+.content_status{
+    display: flex;
+    font-size: 14px;
+    gap: 10px;
+}

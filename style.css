@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+main{
+    background-color: rgb(196, 196, 59);
+margin: 0%;
+padding: 0%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.container ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container ul{
+    font-size: 40px;
+    font-weight: 200;
+padding: 30px;
+list-style: none;
+
+}
+.container a{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.container h1{
+font-weight: 300;
+display: flex;
+justify-content: center;
+padding-top: 50px;
+font-style: italic;
+}
